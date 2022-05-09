@@ -128,7 +128,7 @@ chung2019.csv
         Islamophobia:  856
         hate:          856
 
-qian2019en_gab.csv
+qian2019en_gab.csv #A Benchmark Dataset for Learning to Intervene in Online Hate Speech
     rows:       33776
     file size:  6098685
     labels:     

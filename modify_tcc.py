@@ -1,8 +1,7 @@
 from toxic_comment_collection import get_dataset, get_all_datasets, generate_statistics
 import pandas as pd
 
-#get_all_datasets(config_path="./src/toxic_comment_collection/config.json", api_config_path='./src/toxic_comment_collection/api_config.json')
-#get_all_datasets(config_path="./src/toxic_comment_collection/config.json", skip_download=True, api_config_path='./src/toxic_comment_collection/api_config.json')
+#get_all_datasets(config_path="./src/toxic_comment_collection/config.json", api_config_path='./src/toxic_comment_collection/api_config.json') # skip_download=True
 #get_dataset('ousidhoum2019ar')
 
 df = pd.read_csv("./files/combined.tsv", sep="\t")
